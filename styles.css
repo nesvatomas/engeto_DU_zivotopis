@@ -1,4 +1,12 @@
-* {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+:root {
+  --color-text-basic: #333;
+  --color-bg: #f3f4f6;
+  --color-hl: #512da8;
+  --color-section-bg: #f9f9fc;
+  --color-text-section: #4a148c;
+}
+¨ * {
   box-sizing: border-box;
   margin: 0; /* Používáme zde margin i když zatím nevíme, co přesně dělá */
   padding: 0; /* Používáme zde padding i když zatím nevíme, co přesně dělá */
@@ -8,11 +16,19 @@
 body {
   width: 80%;
   margin: 0 auto;
+  font-family: Montserrat, "sans-serif";
+  color: var(--color-text-basic);
+  background-color: var(--color-background);
+  line-height: 1.6;
 }
 
 /* Styl pro hlavní nadpis */
 .main-title {
   margin: 20px 0 10px; /* Používáme zde margin i když zatím nevíme, co přesně dělá */
+  color: var(--color-hl);
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 /* Styl pro sekce */
@@ -20,12 +36,19 @@ section {
   margin: 20px auto; /* Používáme zde margin i když zatím nevíme, co přesně dělá */
   padding: 20px; /* Používáme zde padding i když zatím nevíme, co přesně dělá */
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: var(--color-section-bg);
+  border-radius: 10px;
+  border: 1px solid #ddd;
 }
 
 /* Styl pro nadpisy sekcí */
 .section-title {
   padding-bottom: 5px; /* Používáme zde padding i když zatím nevíme, co přesně dělá */
   margin-bottom: 15px; /* Používáme zde margin i když zatím nevíme, co přesně dělá */
+  color: var(--color-text-section);
+  font-size: 28px;
+  border-bottom: 2px solid rgba(74, 20, 140, 0.2);
+  text-transform: uppercase;
 }
 
 /* Styl pro profilovou fotografii */
