@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0; /* Používáme zde margin i když zatím nevíme, co přesně dělá */
+  padding: 0; /* Používáme zde padding i když zatím nevíme, co přesně dělá */
+}
+
+/* Nastavení základních stylů pro tělo stránky */
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Styl pro hlavní nadpis */
+.main-title {
+  margin: 20px 0 10px; /* Používáme zde margin i když zatím nevíme, co přesně dělá */
+}
+
+/* Styl pro sekce */
+section {
+  margin: 20px auto; /* Používáme zde margin i když zatím nevíme, co přesně dělá */
+  padding: 20px; /* Používáme zde padding i když zatím nevíme, co přesně dělá */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styl pro nadpisy sekcí */
+.section-title {
+  padding-bottom: 5px; /* Používáme zde padding i když zatím nevíme, co přesně dělá */
+  margin-bottom: 15px; /* Používáme zde margin i když zatím nevíme, co přesně dělá */
+}
+
+/* Styl pro profilovou fotografii */
+.profile-photo {
+  max-width: 120px;
+  margin: 10px auto; /* Používáme zde margin i když zatím nevíme, co přesně dělá */
+}
+
+/* Styly pro odrážky a odkazy */
+.info-list,
+.job-responsibilities,
+.interest-list {
+  list-style-type: none; /* Odstranění výchozích odrážek */
+  padding: 0; /* Používáme zde padding i když zatím nevíme, co přesně dělá */
+}
+
+.info-list li,
+.job-responsibilities li,
+.interest-list li {
+  margin-bottom: 8px; /* Používáme zde margin i když zatím nevíme, co přesně dělá */
+}
+
+.info-list a,
+.job-responsibilities a {
+  cursor: pointer;
+}
+
+.info-list a:hover,
+.job-responsibilities a:hover {
+}
+
+/* Styl pro tabulky */
+.skills-table,
+.language-table {
+  width: 100%;
+  margin: 20px 0; /* Používáme zde margin i když zatím nevíme, co přesně dělá */
+  border-collapse: collapse;
+}
+.skills-table th,
+.language-table th,
+.skills-table td,
+.language-table td {
+  border: 1px solid #ddd;
+  padding: 12px; /* Používáme zde padding i když zatím nevíme, co přesně dělá */
+}
+.skills-table thead,
+.language-table thead {
+  background-color: #512da8;
+  color: white;
+}
+.skills-table tbody tr:nth-child(even),
+.language-table tbody tr:nth-child(even) {
+  background-color: #f3f4f6;
+}
+.skills-table tbody tr:hover,
+.language-table tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+/* Styl pro jednotlivé pracovní pozice */
+.job {
+  margin-bottom: 20px; /* Používáme zde margin i když zatím nevíme, co přesně dělá */
+}
+
+/* Styl pro nadpis pracovních pozic */
+.job-title {
+}
+
+/* Styl pro vzdělání */
+.education-item {
+  margin-bottom: 20px; /* Používáme zde margin i když zatím nevíme, co přesně dělá */
+}
+
+.degree {
+}
+
+/* Styl pro seznam zájmů */
+.interest-list {
+  padding-left: 20px; /* Používáme zde padding i když zatím nevíme, co přesně dělá */
+  list-style-type: circle;
+}
